@@ -1,0 +1,40 @@
+{
+  "name": "@pitwall/server",
+  "version": "0.1.0",
+  "description": "Fastify HTTP server for the Pitwall local review app.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx watch src/dev.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src test",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@fastify/static": "^7.0.4",
+    "@pitwall/parser": "workspace:*",
+    "fastify": "^4.28.1",
+    "pino-pretty": "^11.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsup": "^8.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}

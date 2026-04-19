@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" width="220" height="64" fill="none" role="img" aria-label="Pitwall">
+  <title>Pitwall</title>
+  <rect x="4" y="54" width="56" height="4" fill="currentColor" opacity="0.9"/>
+  <rect x="6" y="30" width="8" height="24" fill="currentColor" opacity="0.5"/>
+  <rect x="18" y="14" width="8" height="40" fill="#4ade80"/>
+  <rect x="30" y="22" width="8" height="32" fill="currentColor" opacity="0.75"/>
+  <rect x="42" y="38" width="8" height="16" fill="currentColor" opacity="0.5"/>
+  <text x="80" y="46" font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="26" font-weight="700" letter-spacing="1.5" fill="currentColor">PITWALL</text>
+</svg>

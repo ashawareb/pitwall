@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["node", "vite/client"],
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "allowImportingTsExtensions": false
+  },
+  "include": [
+    "src/**/*",
+    "test/**/*",
+    "vite.config.ts",
+    "tailwind.config.ts"
+  ]
+}

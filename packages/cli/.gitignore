@@ -1,0 +1,6 @@
+dist/
+# Copied from the repo root by scripts/copy-static.mjs at build time so
+# npm pack / publish can find them next to package.json.
+README.md
+CHANGELOG.md
+LICENSE

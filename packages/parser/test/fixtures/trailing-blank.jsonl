@@ -1,0 +1,7 @@
+{"type":"user","uuid":"u1","timestamp":"2026-04-18T10:00:00.000Z","sessionId":"s1","message":{"role":"user","content":"a"}}
+
+{"type":"assistant","uuid":"a1","timestamp":"2026-04-18T10:00:01.000Z","sessionId":"s1","message":{"role":"assistant","content":[{"type":"text","text":"b"}]}}
+{"type":"user","uuid":"u2","timestamp":"2026-04-18T10:00:02.000Z","sessionId":"s1","message":{"role":"user","content":"c"}}
+
+
+

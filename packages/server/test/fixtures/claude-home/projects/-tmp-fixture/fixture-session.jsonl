@@ -1,0 +1,2 @@
+{"type":"user","uuid":"u1","timestamp":"2026-04-18T10:00:00.000Z","sessionId":"fixture-session","cwd":"/tmp/fixture","message":{"role":"user","content":"Write a hello module."}}
+{"type":"assistant","uuid":"a1","timestamp":"2026-04-18T10:00:01.000Z","parentUuid":"u1","sessionId":"fixture-session","cwd":"/tmp/fixture","message":{"role":"assistant","content":[{"type":"text","text":"Okay."},{"type":"tool_use","id":"tu1","name":"Write","input":{"file_path":"/tmp/fixture/app/models/hello.rb","content":"module Hello;end"}}]}}

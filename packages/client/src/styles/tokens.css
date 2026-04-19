@@ -1,0 +1,44 @@
+/*
+ * Pitwall design tokens.
+ *
+ * Values are normative — they come from docs/04-ui-system.md and are the
+ * single source of truth for every color, radius, and typographic scale in
+ * the app. Components reference these via Tailwind utility classes wired in
+ * tailwind.config.ts; nothing outside this file should hardcode a hex.
+ */
+
+:root {
+  /* Backgrounds */
+  --pw-bg-app: #0a0a0a;
+  --pw-bg-panel: #111111;
+  --pw-bg-panel-hover: #161616;
+  --pw-bg-selected: rgba(74, 222, 128, 0.08);
+
+  /* Text */
+  --pw-fg-primary: #e5e5e5;
+  --pw-fg-muted: rgba(255, 255, 255, 0.55);
+  --pw-fg-faint: rgba(255, 255, 255, 0.35);
+  --pw-fg-ghost: rgba(255, 255, 255, 0.2);
+
+  /* Accents */
+  --pw-accent: #4ade80;
+  --pw-accent-soft: rgba(74, 222, 128, 0.15);
+
+  /* Semantic */
+  --pw-diff-add: #86efac;
+  --pw-diff-add-bg: rgba(74, 222, 128, 0.1);
+  --pw-diff-del: #fca5a5;
+  --pw-diff-del-bg: rgba(248, 113, 113, 0.08);
+  --pw-warn: #fbbf24;
+  --pw-error: #f87171;
+
+  /* Sector colors — muted, distinct, non-semantic */
+  --pw-sector-migrations: #60a5fa;
+  --pw-sector-models: #4ade80;
+  --pw-sector-controllers: #fbbf24;
+  --pw-sector-views: #f472b6;
+  --pw-sector-tests: #a78bfa;
+  --pw-sector-config: #94a3b8;
+  --pw-sector-tasks: #9ca3af;
+  --pw-sector-other: #6b7280;
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" role="img" aria-label="Pitwall">
+  <title>Pitwall</title>
+  <rect x="2" y="27" width="28" height="2" fill="currentColor" opacity="0.9"/>
+  <rect x="3" y="15" width="4" height="12" fill="currentColor" opacity="0.5"/>
+  <rect x="9" y="7" width="4" height="20" fill="#4ade80"/>
+  <rect x="15" y="11" width="4" height="16" fill="currentColor" opacity="0.75"/>
+  <rect x="21" y="19" width="4" height="8" fill="currentColor" opacity="0.5"/>
+</svg>

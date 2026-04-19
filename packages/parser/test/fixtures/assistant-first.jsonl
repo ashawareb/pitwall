@@ -1,0 +1,1 @@
+{"type":"assistant","uuid":"a-orphan","timestamp":"2026-04-18T09:59:59.000Z","sessionId":"s-af","cwd":"/tmp/demo","message":{"role":"assistant","content":[{"type":"text","text":"Orphan block, no user opened a turn yet."},{"type":"tool_use","id":"tu-orphan","name":"Write","input":{"file_path":"/tmp/demo/foo.ts","content":"x"}}]}}
