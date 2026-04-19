@@ -79,9 +79,13 @@ Quit with `Ctrl-C`.
 
 ## Screenshots
 
-<!-- screenshots: to be added after v0.1 smoke test -->
+![Three-panel session view: Timeline on the left, syntax-highlighted diff in the middle, Radio panel on the right showing the triggering prompt and Claude's thinking. Lap Replay scrubber across the top.](./brand/screenshots/hero-three-panel.png)
 
-_Screenshots will be added here after the v0.1 release smoke test._
+![Pitwall CLI startup: running the pitwall command prints version, project being reviewed, local URL, and the Ctrl-C quit hint.](./brand/screenshots/cli-startup.png)
+
+![Timeline view of the left rail: chronological list of file edits with per-edit sector tags (OTHER, TESTS) and line-count deltas.](./brand/screenshots/timeline-view.png)
+
+![Sectors view of the left rail: same edits grouped by architectural sector into collapsible sections.](./brand/screenshots/sectors-view.png)
 
 ## How it works
 

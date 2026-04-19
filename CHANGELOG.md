@@ -4,6 +4,11 @@ All notable changes to the `pitwall` CLI are documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2026-04-19
+
+### Added
+- README screenshots: three-panel view, CLI startup, Timeline and Sectors rails.
+
 ## [0.1.0] — 2026-04-19
 
 Initial release.
